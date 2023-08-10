@@ -1,0 +1,65 @@
+<html>
+    <head></head>
+    <body>
+        <h2>
+        Application Form
+        </h2>
+        <form action="username">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" value="Enter Username"><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="pwd" name="pwd" value="Enter Your Password"><br><br>
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lname" value=""><br>
+            <label for="quantity">Age:</label><br>
+            <input type="number" id="quantity" name="quantity" min="0" max="200"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email">
+            <label for="birthday">Birth Date</label><br>
+            <input type="date" id="birthday" name="birthday">
+            <p>Gender</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="male" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <textarea name="message" rows="10" cols="30">Tell me something about yourself.</textarea><br>
+            <p>Social Media</p>
+            <input list="social medias" name="social-media">
+
+            <datalist id="social medias">
+                <option value="Facebook">
+                <option value="Instagram">
+                <option value="Twitter">
+                <option value="OnlyFans">
+            </datalist>
+
+            <label for="myfile">Select a File:</label>
+            <input type="file"  id="myfile" name="myfile"><br>
+            <label for="gsearch">Search</label>
+            <input type="search" id="gsearch" name="gsearch">
+            <input list="bastketball-teams">
+
+            <datalist id="bastketball-teams">
+                <option value="LA Lakers">
+                <option value="Miami Heat">
+                <option value="Golden State Warriors">
+                <option value="Timberwolves">
+            </datalist>
+
+            <label for="mood-meter">Mood Meter</label>
+            <input type="range" id="vol" name="vol" min="0" max="3"><br>
+
+            <label for="favorite-youtube-url">Favorite Youtube URL</label>
+            <input type="url" id="favorite-youtube-url" name="Favorite Youtube URL">
+
+            <input type="submit" value="Submit"><br>
+            <label for="colorpicker">Color Picker</label>
+            
+            <input type="color" id="colorpicker" name="colorpicker">
+            <input type="image" src="https://c8.alamy.com/comp/GTJ98E/3d-illustration-of-submit-button-isolated-white-background-GTJ98E.jpg" alt="Submit" width="48" height="48">
+            <input type="reset">
+        </form>
+    </body>
+</html>

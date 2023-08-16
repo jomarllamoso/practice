@@ -21,13 +21,16 @@
             td:nth-child(even), th:nth-child(even) {
                 background-color: #0000FF;
             }
+            body {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
             div:nth-child(1) {
-                float: left;
-                width: 50%;
+                flex-grow: 1;
             }
             div:nth-child(2){
-                float: right;
-                width: 50%;
+                flex-grow: 1;
             }
 
         </style>
